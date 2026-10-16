@@ -1,0 +1,120 @@
+================================================================================
+LICENSE
+================================================================================
+
+This software repository contains code from multiple sources with different
+legal statuses, described below.
+
+--------------------------------------------------------------------------------
+1. ORIGINAL USGS CODE — PUBLIC DOMAIN
+--------------------------------------------------------------------------------
+
+The original software was created by employees of the U.S. Geological Survey
+(USGS), an agency of the U.S. federal government, as part of their official
+duties. In accordance with 17 U.S.C. § 105, this work is not subject to
+copyright protection and is in the public domain within the United States.
+
+USGS makes no warranty, expressed or implied, as to the accuracy or
+completeness of this software. The software has not received final approval
+by the U.S. Geological Survey. No warranty, expressed or implied, is made
+by the USGS or the U.S. Government as to the functionality of the software
+and related material, nor shall the fact of release constitute any such
+warranty. The software is provided on the condition that neither the USGS
+nor the U.S. Government shall be held liable for any damages resulting from
+the authorized or unauthorized use of the software.
+
+For more information, see:
+https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+
+--------------------------------------------------------------------------------
+2. POST-RETIREMENT CONTRIBUTIONS — BSD 3-CLAUSE LICENSE
+--------------------------------------------------------------------------------
+
+Modifications, enhancements, and additions made after the original authors'
+retirement from federal service are copyright of the respective contributors
+and are licensed under the BSD 3-Clause License:
+
+Copyright (c) 2019-2026, phreeqc-dev contributors
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+3. CVODE (PART OF SUNDIALS) — BSD 3-CLAUSE LICENSE
+--------------------------------------------------------------------------------
+
+This software incorporates CVODE, part of the SUNDIALS (SUite of Nonlinear
+and DIfferential/ALgebraic equation Solvers) package, developed by Lawrence
+Livermore National Security, LLC and Southern Methodist University.
+
+Copyright (c) 2002-2024, Lawrence Livermore National Security and
+Southern Methodist University.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+The full CVODE license and source code can be found in:
+  third-party/cvode/LICENSE
+
+SUNDIALS project: https://computing.llnl.gov/projects/sundials
+
+================================================================================
+SUMMARY
+================================================================================
+
+  Original USGS code       →  Public domain (17 U.S.C. § 105)
+  Post-retirement changes  →  BSD 3-Clause (see Section 2)
+  CVODE / SUNDIALS         →  BSD 3-Clause (see Section 3)
+
+For questions about the provenance of specific files, refer to the git
+commit history or contact the project maintainers.
+
+================================================================================

@@ -1,0 +1,69 @@
+# upstream_path	reason
+.gitattributes	VCS metadata
+.github/subtrees.json	CI configuration (GitHub), incl. subtree CI of the layers
+.github/superprojects.json	CI configuration (GitHub), incl. subtree CI of the layers
+.github/workflows/ci.yml	CI configuration (GitHub), incl. subtree CI of the layers
+.github/workflows/dist.yml	CI configuration (GitHub), incl. subtree CI of the layers
+.github/workflows/lint-subtrees.yml	CI configuration (GitHub), incl. subtree CI of the layers
+.github/workflows/lint-superprojects.yml	CI configuration (GitHub), incl. subtree CI of the layers
+.github/workflows/setup-fortran.yml	CI configuration (GitHub), incl. subtree CI of the layers
+.github/workflows/subtree.yml	CI configuration (GitHub), incl. subtree CI of the layers
+.github/workflows/wheels.yml	CI configuration (GitHub), incl. subtree CI of the layers
+.gitignore	VCS metadata
+.gitlab-ci.yml	CI configuration (GitLab)
+.gitmodules	VCS metadata
+.pre-commit-config.yaml	developer tooling (pre-commit)
+.vscode/c_cpp_properties.json	editor settings
+Doxygen/Makefile.am	autotools
+Makefile.am	autotools
+Tests/Makefile.am	autotools
+Tests/vs2012/FortranAdvect.vfproj	Visual Studio
+Tests/vs2012/TestRM.sln	Visual Studio
+Tests/vs2012/TestRM.vcxproj	Visual Studio
+Tests/vs2012/TestRM.vcxproj.filters	Visual Studio
+bootstrap	autotools
+configure.ac	autotools
+database/.github/subtrees.json	CI configuration (GitHub), incl. subtree CI of the layers
+database/.github/superprojects.json	CI configuration (GitHub), incl. subtree CI of the layers
+database/.github/workflows/lint-subtrees.yml	CI configuration (GitHub), incl. subtree CI of the layers
+database/.github/workflows/lint-superprojects.yml	CI configuration (GitHub), incl. subtree CI of the layers
+database/.github/workflows/subtree.yml	CI configuration (GitHub), incl. subtree CI of the layers
+database/.gitlab-ci.yml	CI configuration (GitLab)
+database/Makefile.am	autotools
+doc/Makefile.am	autotools
+jenkins-dist.sh	CI (Jenkins)
+m4/ax_cxx_compile_stdcxx.m4	autotools
+m4/ax_prog_cc_mpi.m4	autotools
+m4/ax_prog_cxx_mpi.m4	autotools
+m4/ax_prog_fc_mpi.m4	autotools
+m4/m4_ax_f90_module_extension.m4	autotools
+m4/m4_ax_mpi.m4	autotools
+phreeqcrm.pc.in	autotools
+setup-fortran/CMakeLists.txt	CI helper (GitHub action for Fortran)
+setup-fortran/hw.f90	CI helper (GitHub action for Fortran)
+setup-fortran/openmp/CMakeLists.txt	CI helper (GitHub action for Fortran)
+setup-fortran/openmp/openmp.f90	CI helper (GitHub action for Fortran)
+src/.github/subtrees.json	CI configuration (GitHub), incl. subtree CI of the layers
+src/.github/superprojects.json	CI configuration (GitHub), incl. subtree CI of the layers
+src/.github/workflows/lint-subtrees.yml	CI configuration (GitHub), incl. subtree CI of the layers
+src/.github/workflows/lint-superprojects.yml	CI configuration (GitHub), incl. subtree CI of the layers
+src/.github/workflows/subtree.yml	CI configuration (GitHub), incl. subtree CI of the layers
+src/.gitlab-ci.yml	CI configuration (GitLab)
+src/IPhreeqcPhast/IPhreeqc/.github/subtrees.json	CI configuration (GitHub), incl. subtree CI of the layers
+src/IPhreeqcPhast/IPhreeqc/.github/superprojects.json	CI configuration (GitHub), incl. subtree CI of the layers
+src/IPhreeqcPhast/IPhreeqc/.github/workflows/lint-subtrees.yml	CI configuration (GitHub), incl. subtree CI of the layers
+src/IPhreeqcPhast/IPhreeqc/.github/workflows/lint-superprojects.yml	CI configuration (GitHub), incl. subtree CI of the layers
+src/IPhreeqcPhast/IPhreeqc/.github/workflows/subtree.yml	CI configuration (GitHub), incl. subtree CI of the layers
+src/IPhreeqcPhast/IPhreeqc/.gitlab-ci.yml	CI configuration (GitLab)
+src/IPhreeqcPhast/IPhreeqc/Makefile.am	autotools
+src/IPhreeqcPhast/IPhreeqc/phreeqcpp/.github/subtrees.json	CI configuration (GitHub), incl. subtree CI of the layers
+src/IPhreeqcPhast/IPhreeqc/phreeqcpp/.github/superprojects.json	CI configuration (GitHub), incl. subtree CI of the layers
+src/IPhreeqcPhast/IPhreeqc/phreeqcpp/.github/workflows/lint-subtrees.yml	CI configuration (GitHub), incl. subtree CI of the layers
+src/IPhreeqcPhast/IPhreeqc/phreeqcpp/.github/workflows/subtree.yml	CI configuration (GitHub), incl. subtree CI of the layers
+src/IPhreeqcPhast/IPhreeqc/phreeqcpp/.gitlab-ci.yml	CI configuration (GitLab)
+src/IPhreeqcPhast/IPhreeqc/phreeqcpp/Makefile.am	autotools
+src/IPhreeqcPhast/IPhreeqc/phreeqcpp/common/.github/subtrees.json	CI configuration (GitHub), incl. subtree CI of the layers
+src/IPhreeqcPhast/IPhreeqc/phreeqcpp/common/.github/superprojects.json	CI configuration (GitHub), incl. subtree CI of the layers
+src/IPhreeqcPhast/IPhreeqc/phreeqcpp/common/.github/workflows/lint-superprojects.yml	CI configuration (GitHub), incl. subtree CI of the layers
+src/IPhreeqcPhast/IPhreeqc/phreeqcpp/common/.github/workflows/subtree.yml	CI configuration (GitHub), incl. subtree CI of the layers
+src/IPhreeqcPhast/IPhreeqc/phreeqcpp/common/.gitlab-ci.yml	CI configuration (GitLab)
