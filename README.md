@@ -33,12 +33,22 @@ tools/                sync_upstream.py: imports a new official release into this
 ## Build
 
 ```bash
-cmake --preset release            # or: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j 8
 ctest --test-dir build
 ```
 
-The options are the same as upstream (`-DPHREEQCRM_BUILD_MPI=ON`, `-DPHREEQCRM_WITH_YAML_CPP=ON`, and so on). The installed result (`cmake --install build`) is the same `PhreeqcRM::PhreeqcRM` package, so existing programs build against it unchanged.
+The upstream presets also work unchanged, for example `cmake --preset ninja-static-release` or
+`ninja-shared-release`. `cmake --list-presets` shows them all.
+
+The options are the same as upstream (`-DPHREEQCRM_BUILD_MPI=ON`, `-DPHREEQCRM_WITH_YAML_CPP=ON`,
+`-DPHREEQCRM_FORTRAN_TESTING=ON`, and so on). Each layer's file list is in `src/<layer>/sources.cmake`.
+The build is verified to be equivalent to upstream v3.9.0:
+- every file is compiled with identical definitions and flags;
+- the installed package is identical;
+- the `TestRM` outputs are identical, under OpenMP and MPI.
+
+The installed result (`cmake --install build`) is the same `PhreeqcRM::PhreeqcRM` package, so existing programs build against it unchanged.
 
 ## Updating to a New Official Release
 
