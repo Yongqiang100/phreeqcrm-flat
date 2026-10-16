@@ -17,10 +17,10 @@ if(DEFINED SKBUILD)
 endif()
 
 # copy advect.pqi to build directory for testing
-configure_file(${CMAKE_CURRENT_SOURCE_DIR}/../../Tests/advect.pqi advect.pqi COPYONLY)
-configure_file(${CMAKE_CURRENT_SOURCE_DIR}/../../Tests/all_reactants.pqi all_reactants.pqi COPYONLY)
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/../../tests/advect.pqi advect.pqi COPYONLY)
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/../../tests/all_reactants.pqi all_reactants.pqi COPYONLY)
 if(DEFINED SKBUILD)
-  configure_file(${CMAKE_CURRENT_SOURCE_DIR}/../../Tests/advect.pqi ${CMAKE_CURRENT_SOURCE_DIR}/advect.pqi COPYONLY)
+  configure_file(${CMAKE_CURRENT_SOURCE_DIR}/../../tests/advect.pqi ${CMAKE_CURRENT_SOURCE_DIR}/advect.pqi COPYONLY)
 endif()
 
 # copy yamlphreeqcrm.py to build directory for testing
@@ -53,10 +53,10 @@ set_property(SOURCE ${phreeqcrm_INTERFACE_FULLPATH} APPEND PROPERTY DEPENDS
   ${CMAKE_CURRENT_SOURCE_DIR}/BMIPhreeqcRM_docstrings.swg
   ${CMAKE_CURRENT_SOURCE_DIR}/PhreeqcRM_docstrings.swg
   ${CMAKE_CURRENT_SOURCE_DIR}/functions_docstrings.swg
-  ${PhreeqcRM_SOURCE_DIR}/src/BMIVariant.h
-  ${PhreeqcRM_SOURCE_DIR}/src/IrmResult.h
-  ${PhreeqcRM_SOURCE_DIR}/src/PhreeqcRM.h
-  ${PhreeqcRM_SOURCE_DIR}/src/BMIPhreeqcRM.h
+  ${PhreeqcRM_SOURCE_DIR}/src/phreeqcrm/BMIVariant.h
+  ${PhreeqcRM_SOURCE_DIR}/src/phreeqcrm/IrmResult.h
+  ${PhreeqcRM_SOURCE_DIR}/src/phreeqcrm/PhreeqcRM.h
+  ${PhreeqcRM_SOURCE_DIR}/src/phreeqcrm/BMIPhreeqcRM.h
 )
 
 if(PHREEQCRM_BUILD_MPI)

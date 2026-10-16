@@ -54,14 +54,14 @@ if(PHREEQCRM_FORTRAN_TESTING)
     source_group("Source Files" FILES "${PhreeqcRM_DIR}/src/RM_interface.F90")
   else()
     target_sources(FortranAdvect PRIVATE
-      ../src/BMI_interface.F90
-      ../src/IPhreeqcPhast/IPhreeqc/IPhreeqc_interface.F90
-      ../src/RM_interface.F90
+      ../src/interfaces/fortran/BMI_interface.F90
+      ../src/iphreeqc/IPhreeqc_interface.F90
+      ../src/interfaces/fortran/RM_interface.F90
     )
-    source_group("Source Files" FILES "../src/BMI_interface.F90")
-    source_group("Source Files" FILES "../src/BMI_not_implemented.inc")
-    source_group("Source Files" FILES "../src/IPhreeqcPhast/IPhreeqc/IPhreeqc_interface.F90")
-    source_group("Source Files" FILES "../src/RM_interface.F90")
+    source_group("Source Files" FILES "../src/interfaces/fortran/BMI_interface.F90")
+    source_group("Source Files" FILES "../src/interfaces/fortran/BMI_not_implemented.inc")
+    source_group("Source Files" FILES "../src/iphreeqc/IPhreeqc_interface.F90")
+    source_group("Source Files" FILES "../src/interfaces/fortran/RM_interface.F90")
 
     if(PHREEQCRM_STATIC_RUNTIME)
       set_property(TARGET FortranAdvect PROPERTY MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
@@ -84,9 +84,9 @@ if(PHREEQCRM_FORTRAN_TESTING)
       source_group("Source Files" FILES "${PhreeqcRM_DIR}/src/YAML_interface.F90")
     else()
       target_sources(FortranAdvect PRIVATE
-        ../src/YAML_interface.F90
+        ../src/interfaces/fortran/YAML_interface.F90
       )
-      source_group("Source Files" FILES "../src/YAML_interface.F90")
+      source_group("Source Files" FILES "../src/interfaces/fortran/YAML_interface.F90")
     endif()
   endif()
 
